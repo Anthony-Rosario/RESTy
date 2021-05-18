@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-function Search(props) {
+
+function Search({ onRadioChange, onSubmit, onFetchChange, onBodyChange, }) {
   return (
     <div>
       
